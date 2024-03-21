@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    width: 100px;
+}
+header {
+    font-family: "Protest Guerrilla", sans-serif;
+    background-color:#22201f;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+}
+
+.navbar button {
+    background-color: #ffff;
+    
+}
+.navbar {
+    background-color: #8B0000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+    width: 40px;
+    margin-right: 10px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.nav-link {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-item img {
+    margin: auto;
+    max-width: 92%;
+    overflow:hidden;
+} 
+
+
+
+.carousel-caption {
+    left: 4.1%;
+    width: 92%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.carousel-caption h2 {
+    font-size: 24px;
+    
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.col h3{
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+.card-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .carousel-item img {
+        margin: auto;
+        max-width: 1110px;
+        height: 748px;
+        overflow:hidden;
+    } 
+    
+    .carousel-caption {
+        
+        background-color: rgba(0, 0, 0, 0.6);
+        color: #fff;
+        padding: 20px;
+        bottom: 0px;
+        left:22.6%;
+        width: 1110px;
+    }
+}
